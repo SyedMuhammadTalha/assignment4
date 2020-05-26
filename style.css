@@ -1,0 +1,148 @@
+.navbar {
+    background-color: #00838F !important;
+   
+}
+.fa-shopping-basket{
+    color: #006064;
+    font-size: 32px !important;
+    margin-left: 10px !important;
+}
+
+.nav-link {
+    box-shadow: 2px 4px 5px black;
+    color: white !important;
+    font-weight: bold !important;
+}
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 22px !important;
+    margin-left: 10px !important;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-up,.fa-envelope{
+    
+    font-size: 30px !important;
+    margin-right: 5px;
+    color: #00838F  !important;
+    
+}
+.card1,.card2,.card3,.card4{
+    display: flex;
+    width: 20%;
+    height: auto;
+    background-color:white;
+    box-shadow: 4px 8px 10px black ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   flex-wrap: wrap;
+}
+h3{
+    color: #00838F ;
+}
+.smartphones{
+    margin-top: 50px;
+}
+.card{
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 10px;
+    
+}
+.banner{
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+.responsive {
+    width: 100%;
+    max-width:1400px;
+    min-width: 400px;
+    
+  }
+.card-text,.card-title{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color:#00838F  ;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: #00838F ;
+    margin: 20px;
+
+}
+.heading > h1{
+    text-shadow: 2px 2px 4px black;
+}
+.footer{
+    width: 100%;
+    background-color: #00838F;
+    height: 70px; 
+}
+.btn-outline-secondary,.input-group-text{
+    font-weight: bold;
+    color: black;
+}
+
+
+.footer > div {
+    text-align:center !important ;
+    align-items: center;
+}
+h5{
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3,.card4{
+        width: 90%;
+    }
+  }
+  
+  .row{
+      margin-top: 30px;
+      justify-content: center;
+  }
+  .pics{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-left: 5px; 
+      margin-right: 5px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      
+  }
+  .box{
+      width: 220px !important;
+  }
+  .aboutus{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .aboutus2{
+      justify-content: center;
+      
+  }
+  .faculty>h1{
+      color: #00838F;
+  }
+  .ourteam{
+    color:#00838F;
+ 
+}
+.contact>h1{
+    color:#00838F ;
+}
+.contact2>h1{
+    color:#00838F
+}
